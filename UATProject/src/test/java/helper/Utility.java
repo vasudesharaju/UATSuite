@@ -7,6 +7,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utility {
+	
+	public void dummyMethodForGit(){
+		System.out.println("Github test");
+	}
 
 	// This Lib will wait for specified amount of time
 	public static void sleep(int second) {
