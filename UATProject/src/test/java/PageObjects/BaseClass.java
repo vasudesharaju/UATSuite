@@ -10,6 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -37,12 +38,13 @@ public class BaseClass {
 		
 	}
 
-
+  @Parameters("Browser")
 	@BeforeClass
-	public void setupApplication() {
+	public void setupApplication(String browser) {
 		ConfigDataProvider config = new ConfigDataProvider();
-
-		browser = config.getBrowser();
+// this is from config file
+	//	browser = config.getBrowser();
+		//for paramerized from jenkins use parameters
 
 		url = config.getStagingURL();
 		// url=config.getSpeakerPortalURL();

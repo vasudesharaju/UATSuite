@@ -55,6 +55,12 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>login.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+					<url></url>
+					<browserdetails>{Browser}</browserdetails>
+					<uat.username></uat.username>
+					<uat.password></uat.password>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 			<plugin>
