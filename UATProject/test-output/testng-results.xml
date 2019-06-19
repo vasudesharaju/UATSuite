@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16284" started-at="2019-06-12T22:10:15Z" finished-at="2019-06-12T22:10:31Z">
+  <suite name="Default suite" duration-ms="17837" started-at="2019-06-19T03:30:17Z" finished-at="2019-06-19T03:30:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16284" started-at="2019-06-12T22:10:15Z" finished-at="2019-06-12T22:10:31Z">
+    <test name="Default test" duration-ms="17837" started-at="2019-06-19T03:30:17Z" finished-at="2019-06-19T03:30:34Z">
       <class name="testcases.UATSuite">
-        <test-method status="PASS" signature="setUpReport()[pri:0, instance:testcases.UATSuite@b684286]" name="setUpReport" is-config="true" duration-ms="153" started-at="2019-06-12T15:10:15Z" finished-at="2019-06-12T15:10:15Z">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:testcases.UATSuite@b684286]" name="setUpReport" is-config="true" duration-ms="113" started-at="2019-06-18T20:30:16Z" finished-at="2019-06-18T20:30:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method status="PASS" signature="setupApplication()[pri:0, instance:testcases.UATSuite@b684286]" name="setupApplication" is-config="true" duration-ms="6442" started-at="2019-06-12T15:10:15Z" finished-at="2019-06-12T15:10:21Z">
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:testcases.UATSuite@b684286]" name="setupApplication" is-config="true" duration-ms="4635" started-at="2019-06-18T20:30:17Z" finished-at="2019-06-18T20:30:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method status="PASS" signature="UATSuite()[pri:0, instance:testcases.UATSuite@b684286]" name="UATSuite" duration-ms="9831" started-at="2019-06-12T15:10:21Z" finished-at="2019-06-12T15:10:31Z">
+        <test-method status="PASS" signature="UATSuite()[pri:0, instance:testcases.UATSuite@b684286]" name="UATSuite" duration-ms="13192" started-at="2019-06-18T20:30:21Z" finished-at="2019-06-18T20:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UATSuite -->
-        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:testcases.UATSuite@b684286]" name="tearDownReport" is-config="true" duration-ms="205" started-at="2019-06-12T15:10:31Z" finished-at="2019-06-12T15:10:31Z">
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:testcases.UATSuite@b684286]" name="tearDownReport" is-config="true" duration-ms="192" started-at="2019-06-18T20:30:34Z" finished-at="2019-06-18T20:30:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
