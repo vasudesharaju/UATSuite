@@ -16,6 +16,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 
 import dataProvider.ConfigDataProvider;
 import factory.BrowserFactory;
+import helper.Utility;
 
 public class BaseClass {
 
@@ -27,7 +28,7 @@ public class BaseClass {
 	
 	@BeforeSuite
 	public void setUpReport(){
-		reports=new ExtentReports("./Reports/test.html");
+		reports=new ExtentReports(System.getProperty("user.dir")+"./Reports/"+Utility.getCurrentDateTime()+".html");
 	}
 	
     @AfterSuite

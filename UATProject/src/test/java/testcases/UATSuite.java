@@ -12,6 +12,7 @@ import PageObjects.EnableSessionModule;
 import PageObjects.LogOut;
 import PageObjects.Login;
 import dataProvider.ExcelDataProvider;
+import helper.Utility;
 import pojo.Users;
 
 public class UATSuite extends BaseClass{
@@ -29,6 +30,7 @@ public class UATSuite extends BaseClass{
 		
 		ExcelDataProvider dataProvider = new ExcelDataProvider();
 
+		
 		String id = dataProvider.getStringData("Login", 1, 0);
 		String pwd = dataProvider.getStringData("Login", 1, 1);
 		Users user1 = new Users(id, pwd);

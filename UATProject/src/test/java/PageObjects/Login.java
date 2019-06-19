@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
+import helper.Utility;
 import pojo.Users;
 
 public class Login {
@@ -37,9 +38,9 @@ public class Login {
 
 	public void loginToApp(Users loginUser) {
 		Actions actions = new Actions(driver);
-		userName.sendKeys(loginUser.getUserName());
-		passWord.sendKeys(loginUser.getPassword());
-		Login.click();
+		Utility.waitforWebElement(driver, userName, 20).sendKeys(loginUser.getUserName());
+		Utility.waitforWebElement(driver, passWord, 20).sendKeys(loginUser.getPassword());
+		Utility.waitforWebElement(driver, Login, 20).click();
 	/*	SoftAssert assertion = new SoftAssert();
 		System.out.println("Started");
 		assertion.assertTrue(!driver.getPageSource().contains("The username or password provided are invalid. Please try again"));
