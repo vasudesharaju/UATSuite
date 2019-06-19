@@ -38,7 +38,7 @@ public class BaseClass {
 		
 	}
 
-  @Parameters("Browser")
+ @Parameters("Browser")
 	@BeforeClass
 	public void setupApplication(String browser) {
 		ConfigDataProvider config = new ConfigDataProvider();

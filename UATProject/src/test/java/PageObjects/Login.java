@@ -39,8 +39,11 @@ public class Login {
 	public void loginToApp(Users loginUser) {
 		Actions actions = new Actions(driver);
 		Utility.waitforWebElement(driver, userName, 20).sendKeys(loginUser.getUserName());
+	//	userName.sendKeys(loginUser.getUserName());
 		Utility.waitforWebElement(driver, passWord, 20).sendKeys(loginUser.getPassword());
+	//	passWord.sendKeys(loginUser.getPassword());
 		Utility.waitforWebElement(driver, Login, 20).click();
+	//	Login.click();
 	/*	SoftAssert assertion = new SoftAssert();
 		System.out.println("Started");
 		assertion.assertTrue(!driver.getPageSource().contains("The username or password provided are invalid. Please try again"));
