@@ -52,10 +52,10 @@ public class BaseClass {
 	}
 
 	
-	/*  @AfterClass
+	 @AfterClass
 	  public void tearDownApplication() {
 	  BrowserFactory.closeBrowser(driver); }
-	  */
+	
 	  	  
 	 
 
